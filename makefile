@@ -3,6 +3,7 @@ make:
 	gcc -std=c99 client.c -o client -lpthread
 run:
 	./server &
+	./client
 clean:
 	rm server
 	rm client
